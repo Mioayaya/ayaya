@@ -1,11 +1,13 @@
 import styled from "@emotion/styled";
 
 export const MioPageLoadingDiv = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  .loading {
+  width: 100%;
+  height: 100%;
+  background-color: #fff1fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .loading {    
     display: flex;
     .letter {
       user-select: none;
